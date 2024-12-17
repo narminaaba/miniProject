@@ -179,6 +179,141 @@ li {
   width: 100%;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 13vh;
+  background-color: rgba(255, 255, 255, 0.905);
+  border: 1px solid red;
+  top: 0;
+}
+
+.header--img {
+  margin-left: 4%;
+}
+.header--img:hover {
+  cursor: pointer;
+}
+
+.header__ul,
+.header__p--icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.header__ul li:hover {
+  cursor: pointer;
+  color: rgb(30, 198, 182);
+  transition: 0.5s linear;
+}
+
+.ul__li--icon {
+  font-size: 10px;
+}
+
+.header__p {
+  margin-left: 15%;
+}
+.header__p .header__p--icon {
+  color: rgb(255, 74, 82);
+}
+
+.header__p--icons {
+  color: rgba(110, 105, 105, 0.822);
+}
+.header__p--icons i:hover {
+  cursor: pointer;
+  color: rgb(255, 74, 82);
+  transition: 0.5s linear;
+}
+
+.header__btn {
+  background-color: rgb(255, 74, 82);
+  color: white;
+  width: 90px;
+  height: 13vh;
+  border: 1px solid black;
+}
+.header__btn:hover {
+  cursor: pointer;
+}
+
+.countries {
+  font-weight: 400;
+}
+.countries h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 150px;
+}
+.countries p,
+.countries button {
+  font-family: Rubik, san-serif;
+  font-size: 20px;
+}
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12%;
+}
+
+.countries {
+  background-image: url("../assets/images/Australia.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 88vh;
+  margin-top: 6.2%;
+  text-align: center;
+  color: white;
+}
+.countries button {
+  width: 180px;
+  height: 50px;
+  color: white;
+  background-color: rgb(30, 198, 182);
+  border: none;
+  border-radius: 2px;
+  margin-top: 2%;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 auto;
+  gap: 10px;
+}
+
+.direction {
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  color: white;
+}
+.direction input,
+.direction select {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid gray;
+  height: 35px;
+}
+.direction button {
+  color: white;
+  background-color: rgb(255, 74, 82);
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+}
+
 .section--destination {
   display: flex;
   flex-direction: column;
@@ -187,7 +322,17 @@ li {
 }
 
 .section--destination {
-  padding: 25px;
+  padding: 5%;
+  width: 40%;
+  text-align: center;
+}
+
+.section--destination {
+  line-height: 2;
+}
+
+.section--destination p {
+  color: rgba(110, 105, 105, 0.822);
 }
 
 .container {
@@ -198,4 +343,37 @@ li {
 
 [class|=col] {
   padding: 6px;
+}
+
+.destination--relative1,
+.destination--relative2,
+.destination--relative3,
+.destination--relative4,
+.destination--relative5,
+.destination--relative6 {
+  position: relative;
+}
+
+.places {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  color: white;
+}
+
+.places {
+  font-size: 22px;
+}
+
+.places--btn {
+  width: 80px;
+  height: 25px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(30, 198, 182);
+  border: 1px solid rgb(30, 198, 182);
+}
+
+.destination img {
+  filter: brightness(70%);
 }/*# sourceMappingURL=main.css.map */

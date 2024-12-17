@@ -7,58 +7,178 @@
 @import './layout/grid-layout';
 
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 // .header {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
-// header {
 //     font-family: Rubik sans-serif;
 //     font-weight: 400;
-// }
-// header {
-//     position: fixed;
-//     width: 100%;
-//     height: 14vh;
-//     border: 1px solid red;
+//     font-size: 17px;
 // }
 
-// .header__ul, .header__p {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     gap: 25px;
-// }
+header {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    background-color: rgba(255, 255, 255, 0.905);
+    border: 1px solid red;
+    top: 0;
+}
 
-// .header__ul {
-//  margin:20px;
-// }
-// .header--icon {
-//     color: $secondary-color;
-// }
-// .header__p {
-//     color: rgba(110, 105, 105, 0.822);
-// }
-// .header__btn {
-//     background-color: $secondary-color ;
-//     color: white;
-//     width: 90px;
-//     height: 14vh;
-//     border: 1px solid black;
-// }
-// .header--img {
-//     padding-left: 2%;
-// }
+.header--img {
+    margin-left: 4%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.header__ul,
+.header__p--icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.header__ul {
+    & li:hover {
+        cursor: pointer;
+        color: $primary-color;
+        transition: 0.5s linear;
+    }
+}
+
+.ul__li--icon {
+    font-size: 10px;
+}
+
+.header__p {
+    margin-left: 15%;
+
+    .header__p--icon {
+        color: $secondary-color;
+    }
+}
+
+.header__p--icons {
+    color: rgba(110, 105, 105, 0.822);
+
+    & i:hover {
+        cursor: pointer;
+        color: $secondary-color;
+        transition: 0.5s linear;
+    }
+}
+
+.header__btn {
+    background-color: $secondary-color ;
+    color: white;
+    width: 90px;
+    height: 13vh;
+    border: 1px solid black;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.countries {
+    font-weight: 400;
+
+    h1 {
+        font-family: "Nothing You Could Do", cursive;
+        font-size: 150px;
+    }
+
+    p,
+    button {
+        font-family: Rubik, san-serif;
+        font-size: 20px;
+    }
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+}
+
+.countries {
+    background-image: url("../assets/images/Australia.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 88vh;
+    margin-top: 6.2%;
+    text-align: center;
+    color: white;
+
+    button {
+        width: 180px;
+        height: 50px;
+        color: white;
+        background-color: $primary-color;
+        border: none;
+        border-radius: 2px;
+        margin-top: 2%;
+    }
+}
+
+.direction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 auto;
+    gap: 10px;
+}
+
+.direction {
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    color: white;
+
+    input,
+    select {
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid gray;
+        height: 35px;
+    }
+
+    button {
+        color: white;
+        background-color: $secondary-color;
+        height: 50px;
+        width: 120px;
+        border: none;
+        border-radius: 5px;
+    }
+}
 
 .section--destination {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+
 }
 
 .section--destination {
-    padding: 25px;
+    padding: 5%;
+    width: 40%;
+    text-align: center;
+}
+
+.section--destination {
+    line-height: 2;
+}
+
+.section--destination p {
+    color: rgba(110, 105, 105, 0.822);
 }
 
 .container {
@@ -69,4 +189,37 @@
 
 [class|="col"] {
     padding: 6px;
+}
+
+.destination--relative1,
+.destination--relative2,
+.destination--relative3,
+.destination--relative4,
+.destination--relative5,
+.destination--relative6 {
+    position: relative;
+}
+
+.places {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    color: white;
+}
+
+.places {
+    font-size: 22px;
+}
+
+.places--btn {
+    width: 80px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+}
+
+.destination img {
+    filter: brightness(70%);
 }

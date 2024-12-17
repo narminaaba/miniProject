@@ -10,55 +10,101 @@
 </head>
 
 <body>
-  <!-- <header>
-  <div class="header">
-    <img src="./src/assets/images/logoTravelo.png" alt="logoTravelo">
-    <ul class="header__ul">
-      <li>Home</li>
-      <li>About</li>
-      <li>Destination</li>
-      <li>Pages</li>
-      <li>Blog</li>
-      <li>Contact</li>
-    </ul>
-    <p><i class="fa-solid fa-phone header--icon"></i> 10(256)-928 256</p>
-    <p class="header__p">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-google-plus-g"></i>
-    </p>
-    <button class="header__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-  </div>
-</header> -->
+  <header>
+    <div class="header">
+      <img class="header--img" src="./src/assets/images/logoTravelo.png" alt="logoTravelo">
+      <nav>
+        <ul class="header__ul">
+          <li>Home</li>
+          <li>About</li>
+          <li>Destination</li>
+          <li>Pages <i class="fa-solid fa-chevron-down ul__li--icon"></i></li>
+          <li>Blog <i class="fa-solid fa-chevron-down ul__li--icon"></i></li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <p class="header__p"><i class="fa-solid fa-phone header__p--icon"></i> 10(256)-928 256</p>
+      <p class="header__p--icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-google-plus-g"></i>
+      </p>
+      <button class="header__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+  </header>
   <main>
+    <section>
+      <div class="countries">
+        <h1>Australia</h1>
+        <p>Pixel perfect design with awesome contents</p>
+        <button>Explore Now</button>
+      </div>
+      <div class="direction">
+        <h2>Where you want to go?</h2>
+        <form>
+          <label for="country"></label>
+          <input type="text" id="country" name="country" placeholder="Where to go?">
+          <label for="date"></label>
+          <input type="date" id="date" style="text-decoration: none;" placeholder="Date">
+          <label for="traveltype"></label>
+          <select id="traveltype" name="traveltype">
+            <option value="traveltype">Travel Type</option>
+            <option value="someoption">Some Option</option>
+            <option value="anotheroption">Another Option</option>
+          </select>
+          <button>Search</button>
+        </form>
+      </div>
+      <div>
+
+      </div>
+    </section>
     <section>
       <div class="section--destination">
         <h2>Popular Destination</h2>
         <p>Suffered alteration in some form, by injected humour or good day
           randomised booth anim 8-bit hella wolf moon beard words.</p>
       </div>
-      <div class="container">
+      <div class="container destination">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 destination--relative1 ">
             <div> <img src="./src/assets/images/Italy.png" alt="Italy"></div>
+            <div class="places"> <span>Italy</span>
+              <button class="places--btn">07 places</button>
+            </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 destination--relative2">
             <div> <img src="./src/assets/images/Brazil.png" alt="Brazil"> </div>
+            <div class="places"> <span>Brazil</span>
+              <button class="places--btn">03 places</button>
+            </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 destination--relative3">
             <div> <img src="./src/assets/images/America.png" alt="America"></div>
+            <div class="places"> <span>America</span>
+              <button class="places--btn">10 places</button>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 destination--relative4">
             <div> <img src="./src/assets/images/Nepal.png" alt="Nepal"></div>
+            <div class="places"> <span>Nepal</span>
+              <button class="places--btn">02 places</button>
+            </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 destination--relative5">
             <div><img src="./src/assets/images/Maldives.png" alt="Maldives"></div>
+            <div class="places"> <span>Maldives</span>
+              <button class="places--btn">02 places</button>
+            </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 destination--relative6">
             <div><img src="./src/assets/images/Indonesia2.png" alt="Indinesia"></div>
+            <div class="places"> <span>Indonesia</span>
+              <button class="places--btn">05 places</button>
+            </div>
           </div>
         </div>
       </div>
