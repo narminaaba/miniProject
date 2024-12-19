@@ -1,0 +1,64 @@
+// @mixin col($cols) {
+//     width: calc(100% / 12 * #{$cols});
+//   }
+  
+//   @mixin container-width($max-width, $width: 90%) {
+//     width: $width;
+//     max-width: $max-width;
+//   }
+
+//   .container {
+//     @include container-width(1200px);
+//   }
+
+//   @for $i from 1 through 12 {
+//     .col-#{$i} {
+//       @include col($i);
+//     }
+//   }
+
+//   $breakpoints: (
+//     sm: 599px,
+//     lg: 1023px,
+//     xl: 1439px,
+//   );
+  
+//   @each $size, $max-width in $breakpoints {
+//     @if $size == "sm" {
+//       @media (max-width: #{$max-width}) {
+//         .container {
+//           @include container-width(480px, 95%);
+//         }
+  
+//         @for $i from 1 through 12 {
+//           .col-sm-#{$i} {
+//             @include col($i);
+//           }
+//         }
+//       }
+//     }  @else if $size == "lg" {
+//       @media (min-width: 768px) and (max-width: #{$max-width}) {
+//         .container {
+//           @include container-width(800px, 85%);
+//         }
+  
+//         @for $i from 1 through 12 {
+//           .col-lg-#{$i} {
+//             @include col($i);
+//           }
+//         }
+//       }
+//     } @else if $size == "xl" {
+//       @media (min-width: 1024px) and (max-width: #{$max-width}) {
+//         .container {
+//           @include container-width(1100px, 80%);
+//         }
+  
+//         @for $i from 1 through 12 {
+//           .col-xl-#{$i} {
+//             @include col($i);
+//           }
+//         }
+//       }
+//     } 
+//   }
