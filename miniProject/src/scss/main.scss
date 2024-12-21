@@ -6,9 +6,7 @@
 @import './base/typography';
 @import './layout/grid-layout';
 
-body {
-    height: 7vh;
-}
+
 
 .header {
     display: flex;
@@ -16,11 +14,11 @@ body {
     align-items: center;
 }
 
-// .header {
-//     font-family: Rubik sans-serif;
-//     font-weight: 400;
-//     font-size: 17px;
-// }
+.header {
+    font-family: Rubik sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
 
 header {
     position: fixed;
@@ -55,16 +53,28 @@ header {
         transition: 0.5s linear;
     }
 }
-.header__ul-res {
-visibility: hidden;
-color: white;
-background-color: black;
-width: 80px;
-height: 30px;
-text-align: center;
-padding-top: 5px;
-margin-right: 0;
+
+header {
+    section {
+        display: none;
+        background-color: gray;
+        height: 50px;
+        padding-top: 2%;
+    }
 }
+
+.header__ul-res {
+    display: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 75%;
+}
+
 .ul__li--icon {
     font-size: 10px;
 }
@@ -118,14 +128,14 @@ margin-right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 12%;
+    padding-top: 5%;
 }
 
 .countries {
     background-image: url("../assets/images/Australia.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: 88vh;
+    height: 70vh;
     margin-top: 6.2%;
     text-align: center;
     color: white;
@@ -152,7 +162,6 @@ margin-right: 0;
     justify-content: center;
     align-items: center;
     margin-top: 0 auto;
-    gap: 10px;
 }
 
 .direction {
@@ -166,6 +175,7 @@ margin-right: 0;
         background-color: rgba(0, 0, 0, 0);
         border: 1px solid gray;
         height: 35px;
+        color: gray;
     }
 
     button {
@@ -188,13 +198,13 @@ margin-right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 10px auto;
 
 }
 
 .section--destination {
     padding: 5%;
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 
@@ -206,14 +216,6 @@ margin-right: 0;
     color: rgba(110, 105, 105, 0.822);
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-[class|="col"] {
-    padding: 6px;
-}
 
 .destination--relative1,
 .destination--relative2,
@@ -223,7 +225,6 @@ margin-right: 0;
 .destination--relative6 {
     position: relative;
     transition: 0.2s linear;
-    margin: 10px;
 
     &:hover {
         transform: translateY(-2%);
@@ -278,10 +279,9 @@ margin-right: 0;
     margin-top: 8%;
     background-image: url("../assets/images/newsletter.png");
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: gray;
     width: 100%;
-    height: 35vh;
-
+    height: 50vh;
 
     div {
         width: 20vw;
@@ -312,8 +312,7 @@ margin-right: 0;
 
 .newsletter {
     display: flex;
-    justify-content: center;
-    align-items: center;
+justify-content: center;    align-items: center;
 }
 
 .places {
@@ -335,6 +334,7 @@ margin-right: 0;
 }
 
 .placescard {
+    position: relative;
     border: 1px solid red;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -346,65 +346,313 @@ margin-right: 0;
         overflow: hidden;
         width: 100%;
     }
+
     .fa-star {
-        color: rgb(253,174,92);
+        color: rgb(253, 174, 92);
+    }
+
+    button {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        color: white;
+        background-color: $primary-color;
+        height: 25px;
+        width: 60px;
+        border: none;
+        border-radius: 25px;
+        transition: 0.5s;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $secondary-color;
+        }
     }
 }
-@media (max-width: 391px){
-    header {
-        width: 100%;
+
+.placescard {
+    line-height: 2;
+
+    & p,
+    span,
+    .fa-clock {
+        color: rgba(110, 105, 105, 0.822);
     }
-    .header__ul-res {
-        visibility: visible;
+
+    .days {
+        gap: 20px;
     }
-    .header__p,  
-    .header__p--icons,
-    .header__ul {
-        visibility: visible;
-    }
-    .countries { 
-display: flex;
-justify-content: center;
-align-items: center;
-    }
- .row {
-    flex-direction: column;
- }
- [class|="col"] {
+}
+
+.video {
     width: 100%;
- }
+    overflow: hidden;
+    margin-top: 10%;
+
 }
-@media (max-width: 768px){
-    header {
-        width: 100%;
+
+.serenity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serenity {
+    width: 30%;
+    text-align: center;
+    margin-top: 10%;
+
+    & img {
+        margin-bottom: 10%;
     }
+}
+
+.serenity {
+    line-height: 1.5;
+
+    & p {
+        color: rgba(110, 105, 105, 0.822);
+    }
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.author {
+    position: relative;
+    line-height: 2;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+
+    p {
+        width: 30%;
+    }
+
+    & .micky {
+        color: rgba(110, 105, 105, 0.822);
+    }
+
+    & i {
+        position: absolute;
+        top: 38%;
+        left: 51%;
+        color: white;
+        background-color: $primary-color;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
+
+.recent {
+    margin-top: 10%;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 5%;
+    }
+
+    p {
+        color: rgba(110, 105, 105, 0.822);
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.footer {
+    margin: 15px;
+    line-height: 2;
+
+    & i {
+        padding: 7px;
+    }
+
+    span {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 391px) {
+
     .header__ul-res {
-        visibility: visible;
+        display: block;
+        margin-left: 75%;
+
     }
-    .header__p,  
+
+    .header__p,
     .header__p--icons,
     .header__ul {
-        visibility: hidden;
+        display: none;
     }
-    .countries { 
+
+    header {
+        section {
+            display: block;
+            background-color: gray;
+            height: 50px;
+            padding-top: 2%;
+        }
+    }
+
+    .countries {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .countries {
         display: flex;
         justify-content: center;
         align-items: center;
-            }
-            // .countries {
-            //     h1 {
-            //         font-size: 80px;
-            //     }
-    .row {
-       flex-direction: column;
-}
-    [class|="col"] {
-       width: 50%;
     }
-   }
-   .placescard {
-    & img {
-        object-fit: cover;
-        overflow: hidden;
+
+    .countries {
+        height: 76vh;
+    }
+
+    .direction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    input,
+    select {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    [class|="col"] {
+        width: 100%;
+    }
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+footer {
+    height: 150vh;
+}
+
+@media (min-width: 392px) and (max-width: 768px) {
+
+    .header__ul-res {
+        display: block;
+        margin-left: 80%;
+
+    }
+
+    .header__p,
+    .header__p--icons,
+    .header__ul {
+        display: none;
+    }
+
+    header {
+        section {
+            display: block;
+            background-color: gray;
+            height: 50px;
+            padding-top: 1%;
+        }
+    }
+
+    .countries {
+        h1 {
+            font-size: 80px;
+        }
+    }
+
+    .countries {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .countries {
+        height: 60vh;
+    }
+
+    .direction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        flex-direction: row;
+
+    }
+
+    [class|="col"] {
+        width: 50%;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+
+
+    footer {
+        height: 100vh;
+    }
+
+    .placescard {
+        & img {
+            object-fit: cover;
+            overflow: hidden;
+        }
     }
 }
