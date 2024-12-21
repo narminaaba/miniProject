@@ -50,3 +50,11 @@
 .col-12 {
     width: calc(100% / 12 * 12);
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+[class|="col"] {
+    padding: 6px;
+}
