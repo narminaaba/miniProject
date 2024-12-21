@@ -221,6 +221,17 @@ header {
   transition: 0.5s linear;
 }
 
+.header__ul-res {
+  visibility: hidden;
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 0;
+}
+
 .ul__li--icon {
   font-size: 10px;
 }
@@ -368,6 +379,7 @@ header {
 .destination--relative6 {
   position: relative;
   transition: 0.2s linear;
+  margin: 10px;
 }
 .destination--relative1:hover,
 .destination--relative2:hover,
@@ -485,6 +497,64 @@ header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 31%;
   margin: 10px;
+}
+.placescard img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+.placescard .fa-star {
+  color: rgb(253, 174, 92);
+}
+
+@media (max-width: 391px) {
+  header {
+    width: 100%;
+  }
+  .header__ul-res {
+    visibility: visible;
+  }
+  .header__p,
+  .header__p--icons,
+  .header__ul {
+    visibility: visible;
+  }
+  .countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+  [class|=col] {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .header__ul-res {
+    visibility: visible;
+  }
+  .header__p,
+  .header__p--icons,
+  .header__ul {
+    visibility: hidden;
+  }
+  .countries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    flex-direction: column;
+  }
+  [class|=col] {
+    width: 50%;
+  }
 }
 .placescard img {
   -o-object-fit: cover;
