@@ -42,7 +42,7 @@
     </header>
     <main>
         <section>
-            <div class="countries australia">
+            <div class="countries countriesimg3">
                 <h1>Destinations</h1>
                 <p>Pixel perfect design with awesome contents</p>
             
@@ -67,10 +67,33 @@
 
             </div>
         </section>
+<aside>
+    <div class="filter">
+    <h4>Filter Result</h4>
+    <form>
+        <label for="Country"></label>
+        <select id="Country" name="Country" placeholder="Country">
+            <option value="Country">Country</option>
+            <option value="Africa">Africa</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
 
+        </select>
+        <label for="traveltype"></label>
+        <select id="traveltype" name="traveltype" placeholder="Travel Type">
+            <option value="traveltype">Travel Type</option>
+            <option value="someoption">Some Option</option>
+            <option value="anotheroption">Another Option</option>
+        </select>
+        <label for="range"></label>
+        <input type="range" id="range" placeholder="range">
+        <button>Reset</button>
+    </div>
+    </form>
+</aside>
         <section>
 
-            <div class="container places">
+            <div class="container places destinations">
                 <div class="row">
                     <div class="col-6 placescard">
                         <div> <img src="./src/assets/images/California.png" alt="California">
@@ -97,6 +120,7 @@
                             <div> <i class="fa-regular fa-clock"></i> <span>5 Days</span></div>
                         </div>
                     </div>
+                    
                     <div class="col-6 placescard">
                         <div> <img src="./src/assets/images/London.png" alt="London"></div>
                         <div>
