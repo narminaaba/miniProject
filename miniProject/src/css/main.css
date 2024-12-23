@@ -127,6 +127,139 @@ li {
   list-style: none;
 }
 
+.header {
+  font-family: Rubik sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.ul__li--icon {
+  font-size: 10px;
+}
+
+.countries {
+  font-weight: 400;
+}
+.countries h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 150px;
+}
+.countries p,
+.countries button {
+  font-family: Rubik, san-serif;
+  font-size: 20px;
+}
+
+.section--destination {
+  line-height: 2;
+  font-size: 15px;
+}
+
+.place {
+  font-size: 22px;
+}
+
+.newsletter {
+  line-height: 1.5;
+}
+.newsletter h2 {
+  color: white;
+}
+.newsletter p {
+  color: gray;
+}
+
+.placescard {
+  line-height: 2;
+}
+.placescard p,
+.placescard span,
+.placescard .fa-clock {
+  color: rgba(110, 105, 105, 0.822);
+}
+.placescard h4 {
+  font-size: 18px;
+  transition: 0.2s linear;
+}
+.placescard h4:hover {
+  color: rgb(255, 74, 82);
+}
+
+.countriesimg4 {
+  font-size: 100px;
+}
+
+.serenity {
+  line-height: 1.5;
+}
+.serenity h3 {
+  font-size: 25px;
+}
+.serenity p {
+  color: rgba(110, 105, 105, 0.822);
+}
+
+.recent h2 {
+  font-size: 40px;
+}
+.recent p {
+  color: rgba(110, 105, 105, 0.822);
+}
+.recent h4 {
+  font-size: 25px;
+}
+
+.countriesimg1 {
+  font-weight: 300;
+}
+.countriesimg1 h1 {
+  font-size: 100px;
+}
+.countriesimg1 p,
+.countriesimg1 button {
+  font-family: Rubik, san-serif;
+  font-size: 20px;
+}
+
+.storyh2 {
+  font-size: 35px;
+}
+
+.story {
+  line-height: 2;
+}
+
+.numbers {
+  line-height: 1.5;
+}
+.numbers h3 {
+  color: rgb(255, 74, 82);
+  font-size: 35px;
+}
+.numbers p {
+  color: rgba(110, 105, 105, 0.822);
+}
+
+.filter {
+  line-height: 2;
+}
+
+.buttonwood p {
+  line-height: 1.5;
+  color: gray;
+}
+.buttonwood i {
+  font-size: 25px;
+  color: gray;
+}
+.buttonwood span,
+.buttonwood p {
+  font-size: 20px;
+}
+.buttonwood span {
+  font-weight: 450;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -195,10 +328,130 @@ li {
   align-items: center;
 }
 
-.header {
-  font-family: Rubik sans-serif;
-  font-weight: 400;
-  font-size: 17px;
+.header__ul,
+.header__p--icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 auto;
+}
+
+.section--destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.newsletter input,
+.newsletter button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.places--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.serenity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-right: 2%;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: o auto;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.buttonwood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -217,12 +470,20 @@ header {
   cursor: pointer;
 }
 
-.header__ul,
+.header__p {
+  margin-left: 15%;
+}
+.header__p .header__p--icon {
+  color: rgb(255, 74, 82);
+}
+
 .header__p--icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
+  color: rgba(110, 105, 105, 0.822);
+}
+.header__p--icons i:hover {
+  cursor: pointer;
+  color: rgb(255, 74, 82);
+  transition: 0.5s linear;
 }
 
 .header__ul li:hover {
@@ -250,26 +511,6 @@ header section {
   margin-left: 75%;
 }
 
-.ul__li--icon {
-  font-size: 10px;
-}
-
-.header__p {
-  margin-left: 15%;
-}
-.header__p .header__p--icon {
-  color: rgb(255, 74, 82);
-}
-
-.header__p--icons {
-  color: rgba(110, 105, 105, 0.822);
-}
-.header__p--icons i:hover {
-  cursor: pointer;
-  color: rgb(255, 74, 82);
-  transition: 0.5s linear;
-}
-
 .header__btn {
   background-color: rgb(255, 74, 82);
   color: white;
@@ -281,47 +522,6 @@ header section {
   cursor: pointer;
 }
 
-.countries {
-  font-weight: 400;
-}
-.countries h1 {
-  font-family: "Nothing You Could Do", cursive;
-  font-size: 150px;
-}
-.countries p,
-.countries button {
-  font-family: Rubik, san-serif;
-  font-size: 20px;
-}
-
-.countriesimg1 {
-  font-weight: 300;
-}
-.countriesimg1 h1 {
-  font-size: 100px;
-}
-.countriesimg1 p,
-.countriesimg1 button {
-  font-family: Rubik, san-serif;
-  font-size: 20px;
-}
-
-.countries {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 5%;
-}
-
-.countries {
-  background-image: url("../assets/images/Australia.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 70vh;
-  margin-top: 6.2%;
-  text-align: center;
-  color: white;
-}
 .countries button {
   width: 180px;
   height: 50px;
@@ -337,55 +537,6 @@ header section {
   background-color: rgb(255, 74, 82);
 }
 
-.countries {
-  position: relative;
-}
-.countries .box1 {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  padding-top: 3%;
-  width: 50px;
-  height: 120px;
-  background-color: rgba(112, 109, 109, 0.375);
-}
-
-.countries {
-  position: relative;
-}
-.countries .box2 {
-  position: absolute;
-  right: 0;
-  top: 40%;
-  padding-top: 3%;
-  width: 50px;
-  height: 120px;
-  background-color: rgba(112, 109, 109, 0.375);
-}
-
-.direction {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0 auto;
-}
-
-.direction {
-  width: 100%;
-  height: 25vh;
-  background-color: black;
-  color: white;
-}
-.direction h2 {
-  margin-left: 3px;
-}
-.direction input,
-.direction select {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid gray;
-  height: 35px;
-  color: gray;
-}
 .direction button {
   color: white;
   background-color: rgb(255, 74, 82);
@@ -400,26 +551,74 @@ header section {
   background-color: rgb(30, 198, 182);
 }
 
-.section--destination {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px auto;
+.place--btn {
+  width: 80px;
+  height: 25px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(30, 198, 182);
+  border: none;
 }
 
-.section--destination {
-  padding: 5%;
-  width: 50%;
-  text-align: center;
+.newsletter button {
+  color: white;
+  background-color: rgb(255, 74, 82);
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.newsletter button:hover {
+  cursor: pointer;
+  background-color: rgb(30, 198, 182);
 }
 
-.section--destination {
-  line-height: 2;
-  font-size: 15px;
+.placescard button {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: white;
+  background-color: rgb(30, 198, 182);
+  height: 25px;
+  width: 60px;
+  border: none;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.placescard button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 74, 82);
 }
 
-.section--destination p {
-  color: rgba(110, 105, 105, 0.822);
+.places .places--btn {
+  color: white;
+  background-color: rgb(255, 74, 82);
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.places .places--btn:hover {
+  cursor: pointer;
+  background-color: rgb(30, 198, 182);
+}
+
+.filter button {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(255, 74, 82);
+  color: white;
+  border: none;
+}
+
+.touch button {
+  color: white;
+  background-color: rgb(30, 198, 182);
+  width: 40%;
+  border: none;
+  height: 40px;
 }
 
 .destination--relative1,
@@ -463,47 +662,101 @@ header section {
   color: white;
 }
 
-.place {
-  font-size: 22px;
-}
-
-.place--btn {
-  width: 80px;
-  height: 25px;
-  color: white;
-  border-radius: 5px;
-  background-color: rgb(30, 198, 182);
-  border: none;
-}
-
 .destination img {
   filter: brightness(70%);
   width: 100%;
 }
 
-.newsletter {
-  line-height: 1.5;
+.placescard {
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 31%;
+  margin: 10px;
 }
-.newsletter h2 {
+.placescard img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+.placescard .fa-star {
+  color: rgb(253, 174, 92);
+}
+.placescard .days {
+  gap: 20px;
+}
+
+.serenity {
+  width: 20%;
+  text-align: center;
+  margin-top: 10%;
+}
+.serenity img {
+  margin-bottom: 10%;
+}
+
+.countries {
+  background-image: url("../assets/images/Australia.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  margin-top: 6.2%;
+  text-align: center;
   color: white;
 }
-.newsletter p {
+
+.countries {
+  position: relative;
+}
+.countries .box1 {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  padding-top: 3%;
+  width: 50px;
+  height: 120px;
+  background-color: rgba(112, 109, 109, 0.375);
+}
+
+.countries {
+  position: relative;
+}
+.countries .box2 {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  padding-top: 3%;
+  width: 50px;
+  height: 120px;
+  background-color: rgba(112, 109, 109, 0.375);
+}
+
+.direction {
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+  color: white;
+}
+.direction h2 {
+  margin-left: 3px;
+}
+.direction input,
+.direction select {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid gray;
+  height: 35px;
   color: gray;
 }
 
-.newsletter {
-  display: flex;
-  flex-direction: column;
+.section--destination {
+  padding: 5%;
+  width: 50%;
   text-align: center;
-  align-items: center;
-  margin: 0 auto;
 }
-.newsletter input,
-.newsletter button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+
+.section--destination p {
+  color: rgba(110, 105, 105, 0.822);
 }
 
 .newsletter {
@@ -526,150 +779,29 @@ header section {
   border-radius: 5px;
   margin: 5px;
 }
-.newsletter button {
-  color: white;
-  background-color: rgb(255, 74, 82);
-  height: 50px;
-  width: 120px;
-  border: none;
-  border-radius: 5px;
-  transition: 0.5s;
+
+.countriesimg4 {
+  background-image: url("../assets/images/Enjoy video.png");
+  background-repeat: no-repeat;
 }
-.newsletter button:hover {
-  cursor: pointer;
-  background-color: rgb(30, 198, 182);
+.countriesimg4 i {
+  color: rgb(30, 198, 182);
+  font-size: 60px;
+  transform: scale(0.8);
+  animation: start 2s linear infinite;
 }
 
-.places--btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+@keyframes start {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1.5);
+  }
 }
-
-.places .places--btn {
-  color: white;
-  background-color: rgb(255, 74, 82);
-  height: 50px;
-  width: 120px;
-  border: none;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-.places .places--btn:hover {
-  cursor: pointer;
-  background-color: rgb(30, 198, 182);
-}
-
-.placescard {
-  position: relative;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 31%;
-  margin: 10px;
-}
-.placescard img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  overflow: hidden;
-  width: 100%;
-}
-.placescard .fa-star {
-  color: rgb(253, 174, 92);
-}
-.placescard button {
-  position: absolute;
-  top: 15px;
-  left: 20px;
-  color: white;
-  background-color: rgb(30, 198, 182);
-  height: 25px;
-  width: 60px;
-  border: none;
-  border-radius: 25px;
-  transition: 0.5s;
-}
-.placescard button:hover {
-  cursor: pointer;
-  background-color: rgb(255, 74, 82);
-}
-
-.placescard {
-  line-height: 2;
-}
-.placescard p,
-.placescard span,
-.placescard .fa-clock {
-  color: rgba(110, 105, 105, 0.822);
-}
-.placescard h4 {
-  font-size: 18px;
-  transition: 0.2s linear;
-}
-.placescard h4:hover {
-  color: rgb(255, 74, 82);
-}
-.placescard .days {
-  gap: 20px;
-}
-
-.video {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  margin-top: 10%;
-  z-index: 999;
-}
-.video i {
-  position: absolute;
-  top: 38%;
-  left: 55%;
-}
-
-.serenity,
-.numbers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  margin-right: 2%;
-}
-
-.serenity,
-.numbers {
-  width: 20%;
-  text-align: center;
-  margin-top: 10%;
-}
-.serenity img,
-.numbers img {
-  margin-bottom: 10%;
-}
-
-.serenity,
-.numbers {
-  line-height: 1.5;
-}
-.serenity h3,
-.numbers h3 {
-  font-size: 25px;
-}
-.serenity p,
-.numbers p {
-  color: rgba(110, 105, 105, 0.822);
-}
-
-.numbers h3 {
-  color: rgb(255, 74, 82);
-  font-size: 35px;
-}
-
-.author {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .author {
   position: relative;
   line-height: 2;
@@ -701,57 +833,10 @@ header section {
 }
 .recent h2 {
   text-align: center;
-  font-size: 40px;
   padding-bottom: 5%;
-}
-.recent p {
-  color: rgba(110, 105, 105, 0.822);
-}
-.recent h4 {
-  font-size: 25px;
 }
 .recent img {
   width: 100%;
-}
-
-footer {
-  width: 100%;
-  background-color: black;
-  color: white;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 7%;
-}
-
-.footer {
-  margin-top: 5%;
-  line-height: 2;
-}
-.footer i {
-  padding: 7px;
-}
-.footer .col-3 i:hover,
-.footer .col-3 p:hover,
-.footer .col-3 span:hover,
-.footer .col-3 h4:hover {
-  color: rgb(255, 74, 82);
-}
-.footer .footer-img {
-  width: 100%;
-}
-.footer .span {
-  padding-right: 15%;
-}
-
-.copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
 }
 
 .countriesimg1 {
@@ -760,58 +845,13 @@ footer {
   filter: brightness(80%);
 }
 
-.countriesimg2 {
-  background-image: url("../assets/images/blog.png");
-  background-repeat: no-repeat;
-  filter: brightness(80%);
-}
-
-.countriesimg3 {
-  background-image: url("../assets/images/destination.png");
-  background-repeat: no-repeat;
-  filter: brightness(80%);
-  margin-bottom: -5%;
-}
-
-.countriesimg4 {
-  background-image: url("../assets/images/Enjoy video.png");
-  background-repeat: no-repeat;
-}
-.countriesimg4 i {
-  color: rgb(30, 198, 182);
-  color: rgb(30, 198, 182);
-  font-size: 60px;
-  transform: scale(0.8);
-  animation: start 2s linear infinite;
-}
-
-@keyframes start {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.25);
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}
-.countriesimg4 {
-  font-size: 100px;
-}
-
 .storyh2 {
   margin-left: 10%;
   margin-top: 3%;
   margin-bottom: 2%;
-  font-size: 35px;
 }
 
 .story {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 2;
   width: 60%;
   margin: 0 auto;
   text-align: start;
@@ -822,12 +862,24 @@ footer {
 }
 
 .aboutus {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 71%;
+  width: 76%;
   height: 50%;
+}
+
+.numbers {
+  width: 20%;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 2%;
+}
+.numbers img {
+  margin-bottom: 10%;
+}
+
+.countriesimg2 {
+  background-image: url("../assets/images/blog.png");
+  background-repeat: no-repeat;
+  filter: brightness(80%);
 }
 
 .filter {
@@ -847,58 +899,19 @@ footer {
   margin-bottom: 3px;
   border: 1px solid rgb(171, 166, 166);
 }
-.filter button {
-  width: 100%;
-  height: 40px;
-  background-color: rgb(255, 74, 82);
-  color: white;
-  border: none;
-}
-
-.filter {
-  line-height: 2;
-}
-
-.filter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: o auto;
-}
-
-.col-6 {
-  width: 45%;
-  margin-top: 5%;
-}
 
 #range {
   color: rgb(255, 74, 82);
 }
 
 iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px auto;
-}
-
-iframe {
-  width: 70%;
-}
-
-.touch {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px auto;
+  width: 85%;
 }
 
 .touch {
   margin: 6%;
   padding: 1%;
-  border: 1px solid red;
   width: 85%;
-  height: 60vh;
 }
 .touch textarea {
   width: 100%;
@@ -908,15 +921,13 @@ iframe {
 .touch input {
   height: 5vh;
   margin-bottom: 5%;
-  width: 45%;
+  width: 49%;
 }
 
-.touch1 {
-  color: white;
-  background-color: rgb(30, 198, 182);
-  width: 80px;
-  border: none;
-  height: 40px;
+.buttonwood .col-6 {
+  width: 50%;
+  margin-top: 0;
+  text-align: justify;
 }
 
 #subject {
@@ -924,141 +935,30 @@ iframe {
   height: 5vh;
 }
 
-.buttonwood {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.buttonwood i {
-  font-size: 25px;
-}
-.buttonwood span {
-  line-height: 1.5;
-  float: right;
-  font-size: 20px;
-  text-align: right;
-}
-.buttonwood p {
-  font-size: 20px;
-  text-align: right;
-}
-
-.blogcontainer {
-  display: grid;
+footer {
   width: 100%;
-}
-
-.blog {
-  grid-column: 1/3;
-  grid-row: 1/4;
-}
-
-.blog {
-  width: 55%;
-  background-color: white;
-  margin-left: 10%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  position: relative;
-  margin-top: 5%;
-  text-align: left;
-}
-.blog button {
-  width: 90px;
-  height: 70px;
-  background-color: rgb(255, 74, 82);
+  background-color: black;
   color: white;
-  font-size: 28px;
-  border-radius: 5px;
-  border: none;
-  position: absolute;
-  top: 60%;
-  left: 15%;
-}
-.blog button:hover {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.03);
-  color: rgb(255, 74, 82);
-}
-.blog .comments {
-  margin-top: 2%;
-  text-align: left;
-  line-height: 2;
-  font-size: 15px;
-  color: rgba(110, 105, 105, 0.822);
-}
-.blog .comments span :hover {
-  color: rgb(255, 74, 82);
 }
 
-.blog_1 {
-  width: 80%;
-  text-align: left;
+.footer {
+  margin-top: 5%;
   line-height: 2;
 }
-.blog_1 h3 {
-  margin-top: 10%;
-  font-size: 25px;
+.footer i {
+  padding: 7px;
 }
-.blog_1 h3:hover {
+.footer .col-3 i:hover,
+.footer .col-3 p:hover,
+.footer .col-3 span:hover,
+.footer .col-3 h4:hover {
   color: rgb(255, 74, 82);
 }
-.blog_1 p {
-  font-size: 15px;
-  color: rgba(110, 105, 105, 0.822);
-}
-.blog_1 button {
-  position: absolute;
-  top: 15%;
-  left: 12%;
+.footer .span {
+  padding-right: 15%;
 }
 
-.boxes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box {
-  border: 1px solid gray;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  padding-top: 10px;
-  margin: 50px 7px;
-}
-.box:hover {
-  cursor: pointer;
-  color: rgb(255, 74, 82);
-}
-
-.search {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-.search {
-  border: 1px solid red;
-  background-color: rgb(167, 161, 161);
-}
-.search input,
-.search button {
-  width: 80%;
-  height: 50px;
-  margin: 2%;
-}
-
-.blogrow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.category {
-  border: 1px solid red;
-}
-
-@media (min-width: 392px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .header__ul-res {
     display: block;
     margin-left: 80%;
@@ -1132,12 +1032,202 @@ iframe {
   .author .footer-img {
     width: 100%;
   }
-  .author .storyh2 {
+  .storyh2 {
     margin-left: 8%;
+  }
+  .aboutus {
+    margin-left: -10%;
   }
   .filter {
     float: none;
     width: 75%;
     margin-left: 12%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+.touch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countriesimg3 {
+  background-image: url("../assets/images/destination.png");
+  background-repeat: no-repeat;
+  filter: brightness(80%);
+  margin-bottom: -5%;
+}
+
+.blogcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog {
+  width: 50%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  margin-top: -5%;
+  text-align: left;
+}
+.blog button {
+  width: 90px;
+  height: 70px;
+  background-color: rgb(255, 74, 82);
+  color: white;
+  font-size: 28px;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+}
+.blog button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: rgb(255, 74, 82);
+}
+.blog .comments {
+  margin-top: 2%;
+  text-align: left;
+  line-height: 2;
+  font-size: 15px;
+  color: rgba(110, 105, 105, 0.822);
+}
+.blog .comments span :hover {
+  color: rgb(255, 74, 82);
+}
+
+.blog_1 {
+  width: 80%;
+  text-align: left;
+  line-height: 2;
+}
+.blog_1 h3 {
+  margin-top: 10%;
+  font-size: 25px;
+}
+.blog_1 h3:hover {
+  color: rgb(255, 74, 82);
+}
+.blog_1 p {
+  font-size: 15px;
+  color: rgba(110, 105, 105, 0.822);
+}
+.blog_1 button {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 50px 7px;
+}
+.box:hover {
+  cursor: pointer;
+  color: rgb(255, 74, 82);
+}
+
+.search {
+  width: 100%;
+  border: 1px solid red;
+  background-color: rgb(243, 249, 251);
+}
+.search input,
+.search button {
+  width: 80%;
+  height: 50px;
+  margin: 2%;
+  border: none;
+}
+.search button {
+  background-color: rgb(30, 198, 182);
+  color: white;
+}
+.search button:hover {
+  background-color: rgb(255, 74, 82);
+}
+
+.blogrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category {
+  font-size: 20px;
+}
+.category h5 {
+  font-size: 20px;
+}
+.category p,
+.category hr {
+  color: gray;
+}
+
+.category {
+  line-height: 2;
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 2%;
+  background-color: rgb(251, 249, 255);
+}
+
+.recentpost {
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.post1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post1,
+.post1text {
+  width: 65%;
+  margin: 3%;
+}
+
+.post1text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tag {
+  width: 100%;
+  border: 1px solid red;
+  margin: 3%;
+  padding: 5%;
+}
+.tag button {
+  width: 75px;
+  height: 2%;
+  background-color: white;
+  border: 1px solid rgb(219, 216, 216);
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .countriesimg3 {
+    margin-bottom: -25%;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__ul,
+.header__p--icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.countries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+.direction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0 auto;
+}
+.section--destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+
+}
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+
+    input,
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+.places--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.serenity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 2%;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7%;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ }
+ .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+ }
+ .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: o auto;
+}
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.buttonwood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
