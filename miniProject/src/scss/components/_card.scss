@@ -1,0 +1,62 @@
+.destination--relative1,
+.destination--relative2,
+.destination--relative3,
+.destination--relative4,
+.destination--relative5,
+.destination--relative6 {
+    position: relative;
+    transition: 0.2s linear;
+
+    &:hover {
+        transform: translateY(-2%);
+
+        & span {
+            color: $secondary-color;
+        }
+
+        & button {
+            background-color: $secondary-color;
+        }
+    }
+}
+
+.place {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    color: white;
+}
+
+.destination img {
+    filter: brightness(70%);
+    width: 100%;
+}
+.placescard {
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 31%;
+    margin: 10px;
+
+    & img {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .fa-star {
+        color: rgb(253, 174, 92);
+    } 
+    .days {
+        gap: 20px;
+    }
+}
+.serenity {
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+
+    & img {
+        margin-bottom: 10%;
+    }
+}

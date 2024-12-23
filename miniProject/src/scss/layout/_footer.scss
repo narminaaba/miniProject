@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    margin-top: 5%;
+    line-height: 2;
+
+    & i {
+        padding: 7px;
+    }
+
+    .col-3 {
+        i,
+        p,
+        span,
+        h4 {
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .span {
+        padding-right: 15%;
+    }
+}

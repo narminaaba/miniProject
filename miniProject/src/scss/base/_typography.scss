@@ -1,0 +1,141 @@
+.header {
+    font-family: Rubik sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.ul__li--icon {
+    font-size: 10px;
+}
+.countries {
+    font-weight: 400;
+
+    h1 {
+        font-family: "Nothing You Could Do", cursive;
+        font-size: 150px;
+    }
+
+    p,
+    button {
+        font-family: Rubik, san-serif;
+        font-size: 20px;
+    }
+}
+.section--destination {
+    line-height: 2;
+    font-size: 15px;
+}
+.place {
+    font-size: 22px;
+}
+.newsletter {
+    line-height: 1.5;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: gray;
+    }
+}
+.placescard {
+    line-height: 2;
+
+    & p,
+    span,
+    .fa-clock {
+        color: rgba(110, 105, 105, 0.822);
+    }
+    h4 {
+        font-size: 18px;
+        transition: 0.2s linear;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+.countriesimg4 {
+    font-size: 100px;
+}
+.serenity {
+    line-height: 1.5;
+
+    h3 {
+        font-size: 25px;
+    }
+
+    & p {
+        color: rgba(110, 105, 105, 0.822);
+    }
+}
+.recent {
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        color: rgba(110, 105, 105, 0.822);
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+}
+.countriesimg1 {
+    font-weight: 300;
+
+    h1 {
+        font-size: 100px;
+    }
+
+    p,
+    button {
+        font-family: Rubik, san-serif;
+        font-size: 20px;
+    }
+}
+.storyh2 {
+    font-size: 35px;
+}
+
+.story {
+    line-height: 2;
+}
+.numbers {
+    line-height: 1.5;
+
+    h3 {
+        color: $secondary-color;
+        font-size: 35px;
+    }
+
+    & p {
+        color: rgba(110, 105, 105, 0.822);
+    }
+}
+.filter {
+    line-height: 2;
+}
+.buttonwood {
+    p {
+        line-height: 1.5;
+        color: gray;
+    }
+
+    i {
+        font-size: 25px;
+        color: gray;
+    }
+
+    span,
+    p {
+        font-size: 20px;
+    }
+
+    span {
+        font-weight: 450;
+    }
+}
