@@ -21,19 +21,19 @@
     margin-bottom: -5%;
 }
 
-.blogcontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// .blogcontainer {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
 .blog {
     width: 50%;
     background-color: white;
-    // margin-left: 10%;
+    margin-left: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
-    margin-top: -5%;
+    margin-top: 5%;
     text-align: left;
 
     button {
@@ -119,7 +119,7 @@
 
 
 .search {
-    width: 100%;
+    width: 45%;
     border: 1px solid red;
     background-color: rgb(243, 249, 251);
 
@@ -127,7 +127,7 @@
     button {
         width: 80%;
         height: 50px;
-        margin: 2%;
+        margin: 5%;
         border: none;
     }
 
@@ -139,12 +139,20 @@
             background-color: $secondary-color;
         }
     }
+
+    h4 {
+        text-align: center;
+    }
 }
 
 .blogrow {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.blogrow {
+    margin-left: 50%;
+    margin-top: -127%;
 }
 
 .category {
@@ -163,16 +171,17 @@
 .category {
     line-height: 2;
     border: 1px solid red;
-    width: 100%;
-    margin-top: 2%;
+    width: 45%;
+    margin: 5%;
     background-color: rgb(251, 249, 255);
-
+    padding: 3%;
 }
 
 .recentpost {
     border: 1px solid red;
-    width: 100%;
+    width: 45%;
     margin-top: 2%;
+    padding: 3%;
 }
 
 .post1 {
@@ -183,8 +192,9 @@
 
 .post1,
 .post1text {
-    width: 65%;
+    width: 80%;
     margin: 3%;
+    text-align: left;
 }
 
 .post1text {
@@ -194,10 +204,10 @@
 }
 
 .tag {
-    width: 100%;
+    width: 45%;
     border: 1px solid red;
     margin: 3%;
-    padding: 5%;
+    padding: 3%;
 
     button {
         width: 75px;
@@ -205,9 +215,22 @@
         background-color: white;
         border: 1px solid rgb(219, 216, 216);
         margin-top: 5%;
+        margin: 2%;
     }
 }
 
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram {
+    width: 45%;
+    border: 1px solid red;
+    margin: 3%;
+    padding: 1%;
+}
 
 @media (max-width: 768px) {
 

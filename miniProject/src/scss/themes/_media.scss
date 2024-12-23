@@ -104,13 +104,13 @@
         width: 75%;
         margin-left: 12%;
     }
-    .col-6 {
-        width: 100%;
+    // .col-6 {
+    //     width: 100%;
+    // }
+    .touch {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
-.touch {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
