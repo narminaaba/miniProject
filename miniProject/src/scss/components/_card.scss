@@ -31,6 +31,7 @@
     filter: brightness(70%);
     width: 100%;
 }
+
 .placescard {
     position: relative;
     background-color: white;
@@ -46,11 +47,13 @@
 
     .fa-star {
         color: rgb(253, 174, 92);
-    } 
+    }
+
     .days {
         gap: 20px;
     }
 }
+
 .serenity {
     width: 20%;
     text-align: center;

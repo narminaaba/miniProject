@@ -1,4 +1,3 @@
-
 .header__ul {
     & li:hover {
         cursor: pointer;
@@ -6,6 +5,7 @@
         transition: 0.5s linear;
     }
 }
+
 header {
     section {
         display: none;
